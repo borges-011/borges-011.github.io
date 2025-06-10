@@ -3,38 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Mini Página GitHub</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-            color: #333;
-        }
-        .container {
-            text-align: center;
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #0056b3;
-        }
-        p {
-            font-size: 1.1em;
-        }
-    </style>
+    <title>Para Minha Namorada Linda ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="background-elements"></div>
+
+    <audio id="background-music" loop autoplay>
+        <source src="sua_musica.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+    </audio>
+
     <div class="container">
-        <h1>Olá do GitHub Pages!</h1>
-        <p>Esta é a sua mini página criada com sucesso.</p>
-        <p>Você pode editar este arquivo ou adicionar mais!</p>
+        <h1 class="title">Para o amor da minha vida!</h1>
+        <p class="subtitle">Feliz Dia dos Namorados!</p>
+
+        <div class="content-area" id="contentArea">
+            <img src="sua_foto.jpg" alt="Nós dois" class="main-image">
+            <p class="sweet-text">Cada momento ao seu lado é um presente. Você ilumina meus dias!</p>
+        </div>
+
+        <button id="loveButton">Clique aqui para uma mensagem especial!</button>
+
+        <p class="footer-text">Com todo o meu amor, [Seu Nome]</p>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
